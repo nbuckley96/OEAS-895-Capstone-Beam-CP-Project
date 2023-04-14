@@ -3,6 +3,13 @@
 This project was built at an attempt to estimate beam attenuation from chlorophyll fluorescence in the upper water column to use as another potential proxy for phytoplankton biomass. 
 
 The packages used in this project can be found beamcp_chl.yml file
+The following packages were installed in this conda environment:
+* Pandas
+* Numpy
+* Matplotlib 
+* Seaborn
+* Cartopy 
+* CMOcean
 
 # Data
 

@@ -11,7 +11,7 @@ More information can be found at on the GEOTRACES webstie:  https://www.geotrace
 
 CTD sensor data that contained beam attenuation and either chlorophyll or fluorescence data were extracted from webODV.  Other CTD parameters pulled were:  cruise identifiers, station identifiers, dat/time, latitude, longitude, pressure, temperature, salinity, oxygen, and photosynthetically active radiation.  
 
-The ASCII spreadsheet used in this project is placed in the 'Raw Data' folder where 'Processing Info' can also be found that was included with the ASCII spreadsheet upon download.  
+The ASCII spreadsheet used in this project is placed in the 'Raw Data' folder where 'Data Processing Info' can also be found that was included with the ASCII spreadsheet upon download.  
 
 # Notebooks
 

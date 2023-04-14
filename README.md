@@ -18,7 +18,7 @@ The ASCII spreadsheet used in this project is placed in the 'Raw Data' folder wh
 These still need to be cleaned up and automated but included are the following notebooks:  
 
 CTD data at a glance
-  This is a notebook that includes a map of plotting initial data locations and some exploratory data visualization to look at vertical distributions of the parameters     imported from the ASCII spreadsheet.
+* This is a notebook that includes a map of plotting initial data locations and some exploratory data visualization to look at vertical distributions of the                 parameters imported from the ASCII spreadsheet.
 
 Beam CP predicted from Chlorophyll Fluorescence - 14 April 2023
-  This notebook includes applying the data corrections where necessary and then applies the KNeighborsRegressor from scikit learn.  
+* This notebook includes applying the data corrections where necessary and then applies the KNeighborsRegressor from scikit learn.  

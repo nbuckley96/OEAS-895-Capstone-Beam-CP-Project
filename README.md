@@ -23,7 +23,7 @@ CTD sensor data that contained beam attenuation and either chlorophyll or fluore
 The ASCII spreadsheet used in this project was too large (730 MB) to be placed on GitHub so it was placed in a Google drive folder that can be accessed from the following link:  https://drive.google.com/drive/folders/121quulvUFnAvhx-pjFLY6Aylj8F8iCJY?usp=sharing.  
 'Data Processing Info' on the ASCII spreadsheet used in this project can be found within the 'Raw Data' folder and was included with the ASCII spreadsheet upon download.  
 
-Though unrelated to the model, an ODV Collection file has been placed in the 'Raw Data' folder and can be useful for initial data visualization.
+Though unrelated to the model an ODV Collection file, 'IDP2021_GEOTRACES_IDP2021_Seawater_Sensor_Data_v1_fWAsARBb', has been placed in the 'Raw Data' folder and can be useful for initial data visualization.
 
 
 # Notebooks

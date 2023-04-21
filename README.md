@@ -34,4 +34,4 @@ cruise_transect_profiles
 * This is a notebook that includes a map of plotting initial data locations and some exploratory data visualization to look at vertical distributions of the                 parameters imported from the ASCII spreadsheet.
 
 predict_beamcp_CHL_ONLY
-* This notebook applied a K Nearest Neighbors Regression (frm scikitlearn) to the chlorophyll and beam attenuation data.  This covers the following:  applying offsets where necessary, finding the optimal k value and then applying that to an initial KNN regression, and then applying a 5-fold cross validation to further validate the results from the train/test (70/30) split used in the initial KNN regression. 
+* This notebook applied a K Nearest Neighbors Regression (frm scikit learn) to the chlorophyll and beam attenuation data.  This covers the following:  applying offsets where necessary, finding the optimal k value and then applying that to an initial KNN regression, and then applying a 5-fold cross validation to further validate the results from the train/test (70/30) split used in the initial KNN regression. 

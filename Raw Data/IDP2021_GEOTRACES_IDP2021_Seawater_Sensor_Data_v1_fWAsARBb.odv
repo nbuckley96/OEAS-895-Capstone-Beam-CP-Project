@@ -1,0 +1,35 @@
+
+[General]
+CollectionFormat = ODVCF6
+DataField = Ocean
+DataType = Profiles
+Description = GEOTRACES IDP2021 seawater sensor data
+NumberOfMetaVariables = 12
+NumberOfVariables = 8
+PrimaryVariableIndex = 1
+SampleQualityFlagSchema = ODV
+StationQualityFlagSchema = ODV
+
+[Meta Variables]
+0001 = Cruise;;INDEXED_TEXT;4;0;0;ODV;METACRUISE;
+0002 = Station;;TEXT;21;0;0;ODV;METASTATION;
+0003 = Type;;TEXT;2;0;0;ODV;METATYPE;
+0004 = Longitude;degrees_east;FLOAT;4;3;0;ODV;METALONGITUDE;
+0005 = Latitude;degrees_north;FLOAT;4;3;0;ODV;METALATITUDE;
+0006 = Year;;SHORT;2;0;0;ODV;METAYEAR;
+0007 = Month;;BYTE;1;0;0;ODV;METAMONTH;
+0008 = Day;;BYTE;1;0;0;ODV;METADAY;
+0009 = Hour;;BYTE;1;0;0;ODV;METAHOUR;
+0010 = Minute;;BYTE;1;0;0;ODV;METAMINUTE;
+0011 = Second;;FLOAT;4;0;0;ODV;METASECOND;
+0012 = Accession Number;;UNSIGNED_INTEGER;4;0;0;ODV;METAACCESSIONNUMBER;
+
+[Variables]
+0001 = CTDPRS_T_VALUE_SENSOR;dbar;FLOAT;4;0;0;SEADATANET;BASIC;Pressure from CTD sensor.
+0002 = CTDTMP_T_VALUE_SENSOR;deg C;FLOAT;4;2;0;SEADATANET;BASIC;Temperature from CTD sensor in the ITS-90 convention.
+0003 = CTDSAL_D_CONC_SENSOR;pss-78;FLOAT;4;3;0;SEADATANET;BASIC;Practical salinity from CTD sensor on the PSS-1978 scale.
+0004 = CTDOXY_D_CONC_SENSOR;umol/kg;FLOAT;4;0;0;SEADATANET;BASIC;Concentration of dissolved oxygen from sensor on CTD.
+0005 = CTDCHLA_T_CONC_SENSOR;mg/m^3;FLOAT;4;2;0;SEADATANET;BASIC;Chlorophyll-a concentration derived from fluorescence sensor on CTD.
+0006 = CTDFLUOR_T_VALUE_SENSOR;arbitrary units;FLOAT;4;2;0;SEADATANET;BASIC;Raw fluorescence data from sensor on CTD. Not calibrated.
+0007 = CTDBEAMCP_T_VALUE_SENSOR;1/m;FLOAT;4;3;0;SEADATANET;BASIC;Transmissometer beam attenuation from XMISS sensor on CTD.
+0008 = CTDPAR_T_VALUE_SENSOR;arbitrary units;FLOAT;4;2;0;SEADATANET;BASIC;Raw PAR data from sensor on CTD. Not calibrated.
